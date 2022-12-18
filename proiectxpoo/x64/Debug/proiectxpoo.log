@@ -1,0 +1,3 @@
+﻿  proiectxpoo.cpp
+C:\pregatire POO\proiectxpoo\proiectxpoo\Bilet.h(52,14): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  proiectxpoo.vcxproj -> C:\pregatire POO\proiectxpoo\x64\Debug\proiectxpoo.exe
