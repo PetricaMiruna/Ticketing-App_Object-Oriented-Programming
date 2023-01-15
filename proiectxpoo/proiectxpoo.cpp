@@ -10,11 +10,83 @@ using namespace std;
 int main()
 {
 	Bilet b1;
+	Bilet b2;
 	Locatie l1;
+	Locatie l2;
 	Eveniment e1;
-	cin >> b1;
-	cout << b1;
+	Eveniment e2;
 
+	char* a;
+	a = new char[30];
+	strcpy(a, "tipeveniment");
+
+	//cin >> b1;
+	cout << endl;
+	//cout << b1;
+	cout << endl;
+	//cout << e1.getData();
+	cout << endl;
+	//cout << e1.getNume();
+	cout << endl;
+	//cout << e1.getOra();
+	cout << endl;
+	//cout << e1.getTip();
+	cout << endl;
+
+	//e2.SetData("20.03.2022");
+	//e2.setOra("18");
+	//e2.setNume("Numeeveniment");
+	//e2.setTip(a);
+
+	//cout << e1.operator*(e2);
+	cout << endl;
+	//cout << e1.operator/(e2);
+	cout << endl;
+	//cout << e1.operator=(e2);
+	cout << endl;
+
+	//b2.setLoc(2);
+	cout << endl;
+	//b2.setRand(3);
+	cout << endl;
+	//cout << b1.getId();
+	//cout << b1.getPret();
+	//cout << b1.operator+(b2);
+	cout << endl;
+	//cout << b1.operator++();
+	cout << endl;
+	//cout << b1.operator=(b2);
+	cout << endl;
+
+	//cout << l1.getCategorie();
+	cout << endl;
+	//cout << l1.getNrColoane();
+	cout << endl;
+	//cout << l1.getNrlinii();
+	cout << endl;
+	//cout << l1.getTiplocatie();
+	cout << endl;
+	//l2.setCategorie("loje");
+	//l2.setNrcoloane(12);
+	//l2.setNrlinii(10);
+	//l2.setTipLocatie("teatru");
+	//cout << l2.getNrlinii();
+	cout << endl;
+	//cout << l2.getTiplocatie();
+	cout << endl;
+	//cout << l2.getNrColoane();
+	cout << endl;
+	//cout << l2.getCategorie();
+	cout << endl;
+	//cout << l1.operator!();
+	cout << endl;
+	//l1.operator--();
+	//l1.operator--(3);
+	cout << endl;
+	//cin >> b1;
+	//cout << b1;
+
+	
 	
 	
 }

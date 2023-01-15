@@ -112,6 +112,7 @@ public:
 		os << "nume eveniment " << e.nume << endl;
 		os << "data evenimentului " << e.data_eveniment << endl;
 		os << "ora evenimentului " << e.ora << endl;
+		os << "tipul evenimentului " << e.tip_eveniment << endl;
 		os << endl;
 		return os;
 	}

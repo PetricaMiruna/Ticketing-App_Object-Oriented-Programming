@@ -26,7 +26,7 @@ public:
 		locuri = nullptr;
 		sala_disponibila =true;
 		tip_locatie = "Necunoscuta";
-		categorie_loc = "Necunoscut";
+		categorie_loc = "Necunoscuta";
 		nr_linii=20;
 		nr_coloane=20;
 	}
@@ -65,10 +65,10 @@ public:
 		return *this;
 	}
 
-	void setTipLocatie(int tip_locatie) {
+	void setTipLocatie(string tip_locatie) {
 		this->tip_locatie = tip_locatie;
 	}
-	void setCategorie(int categorie) {
+	void setCategorie(string categorie_loc) {
 		this->categorie_loc = categorie_loc;
 	}
 
