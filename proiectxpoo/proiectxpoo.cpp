@@ -83,8 +83,9 @@ int main()
 	//l1.operator--();
 	//l1.operator--(3);
 	cout << endl;
-	//cin >> b1;
-	//cout << b1;
+	cin >> b1;
+	cout << endl;
+	cout << b1;
 
 	
 	
